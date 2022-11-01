@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Darker+Grotesque&family=Poppins:ital,wght@1,300&family=Work+Sans&display=swap");
+<<<<<<< HEAD
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+=======
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+>>>>>>> c118dbcd9fb5427f0619c41b0e01b2701f11b6e8
+/*maps*/
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding: 0%; }
+
+.cuerpo {
+  background-image: linear-gradient(to right top, #aef0f2, #b7eefe, #c5ebff, #d6e8ff, #e5e6ff, #e5e6ff, #e5e6ff, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2); }
+
+/*HEADER*/
+.encabezado {
+  display: flex;
+  justify-content: center; }
+  .encabezado .navegador {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right top, #86b9bbaf, #789da8aa, #96b3c3af, #a3b0c2af, #9b9bada4, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2); }
+  .encabezado .logo {
+    width: 20%; }
+
+/*FOOTER*/
+.footer .whatsapp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
+
+.footer .ubicacion {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%; }
+  .footer .ubicacion .mapa {
+    margin-bottom: 10rem; }
+
+.footer .redes {
+  display: flex;
+  justify-content: center; }
+  .footer .redes .whatsapp2:hover {
+    transform: rotate(30deg);
+    transition: rotate 2s; }
+  .footer .redes .mail:hover {
+    transform: rotate(30deg);
+    transition: rotate 2s; }
+  .footer .redes .instagram:hover {
+    transform: rotate(30deg);
+    transition: rotate 2s; }
+  .footer .redes .facebook:hover {
+    transform: rotate(30deg);
+    transition: rotate 2s; }
+
+h1 {
+  font-size: 1.5rem; }
+
+/*tamaño smartphone*/
+@media screen and (max-width: 480px) {
+  .body {
+    font-size: 0.5em; } }
+
+/*tamaño tablet*/
+@media screen and (max-width: 768px) {
+  .body {
+    font-size: 1em; } }
