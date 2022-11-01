@@ -1,0 +1,43 @@
+
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, solamente lo utilizé para que pueda ser evaluado y no en la totalidad del proyecto.*/
+
+$fuentes_grosor:bold;
+$bordes:5px solid white;
+$flex : flex;
+$center:center;
+$row: row;                                      
+$space-around :space-around;
+$space-between:space-between;
+$column:column;
+$space-evenly:space-evenly;
+$text-align: center;
+
+
+
+/*maps*/
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+);
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);
+
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+

@@ -1,0 +1,92 @@
+*{font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .cuerpo{
+      background-image: linear-gradient(to right top, #aef0f2, #b7eefe, #c5ebff, #d6e8ff, #e5e6ff, #e5e6ff, #e5e6ff, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2);
+  
+  }
+  /*HEADER*/
+  .encabezado{
+      display: flex;
+      justify-content: center;
+      .navegador{
+          @include flex-justificar(map-get($map-flex,space-around)); 
+          background-image: linear-gradient(to right top, #86b9bbaf, #789da8aa, #96b3c3af, #a3b0c2af, #9b9bada4, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2);
+      }
+      .logo{
+          width: 20%;
+      }
+  }
+  
+  /*FOOTER*/
+  .footer{
+      .whatsapp{
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          }
+      .ubicacion{
+          @include flex-justificar(map-get($map-flex,center)); 
+          margin-bottom: 2%;
+          .mapa{
+              margin-bottom: 10rem;
+              
+               }
+              }    
+      .redes{
+          @include flex-justificar(map-get($map-flex,center)); 
+
+          .whatsapp2{
+              &:hover{
+                  transform: rotate(30deg);
+                  transition: rotate 2s;
+              } 
+          }
+          .mail{
+              &:hover{
+                  transform: rotate(30deg);
+                  transition: rotate 2s;
+              } 
+          }
+          .instagram{
+              &:hover{
+                  transform: rotate(30deg);
+                  transition: rotate 2s;
+              } 
+          }
+          .facebook{
+              &:hover{
+                  transform: rotate(30deg);
+                  transition: rotate 2s;
+              } 
+          }
+      }        
+  
+  }
+  
+  h1 {
+      font-size: 1.5rem;
+  }
+  
+  /*tamaño smartphone*/ 
+  @media screen and (max-width:480px) {
+    .body{
+      font-size: 0.5em;
+      }
+    
+  }
+     
+  
+  /*tamaño tablet*/
+  
+  @media screen and (max-width:768px) {
+      .body{
+          font-size: 1em;
+        }
+  
+
+  }
+     
+      

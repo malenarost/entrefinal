@@ -1,0 +1,34 @@
+/*dado a que mi proyecto se realizo en su totalidad con boostrap, por indicaciones de la profe, utilizaré un mixin y una variable ara que pueda ser evaluado.*/ 
+
+
+@mixin flex-row-center{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+@mixin flex-column-center{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+@mixin flex-direction-center($direction){
+    display:flex;
+    flex-direction:$direction;
+    justify-content:center;
+}
+
+
+
+@mixin flex-justificar($justify){
+    display:flex;
+    justify-content:$justify;
+}
+
+@mixin grid-columns-row($columns,$row){
+    display:grid;
+    grid-template-columns:repeat($columns, 1fr);
+    grid-template-rows:repeat($row, 1fr);
+}
+

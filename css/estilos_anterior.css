@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@300&family=Darker+Grotesque&family=Poppins:ital,wght@1,300&family=Work+Sans&display=swap');
+
+*{font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+
+.cuerpo{
+    background-image: linear-gradient(to right top, #aef0f2, #b7eefe, #c5ebff, #d6e8ff, #e5e6ff, #e5e6ff, #e5e6ff, #e5e6ff, #d6e8ff, #c5ebff, #b7eefe, #aef0f2);
+}
+.navegador{
+    background-color: #aef0f24c;
+}
+
+.whatsapp{
+position: fixed;
+bottom: 10px;
+right: 10px;
+}
+
+
+
+.ubicacion{
+margin-bottom: 2%;
+}
+
+/*animaciones*/
+
+.whatsapp2:hover{
+    transform: rotate(30deg);
+    transition: rotate 2s;
+} 
+
+.mail:hover{
+    transform: rotate(-30deg);
+    transition: rotate 2s;
+} 
+.instagram:hover{
+    transform: rotate(30deg);
+    transition: rotate 2s;
+} 
+
+.facebook:hover{
+    transform: rotate(-30deg);
+    transition: rotate 2s;
+} 
+
+
+h1 {
+    font-size: 1.5rem;
+}
+.h4{
+    font-size: 0,8rem;
+    margin: 10rem;
+    padding:1.5rem;
+}
+.mapa{
+    margin-bottom: 10rem;
+}
+
+
+/*tamaño smartphone*/ 
+@media screen and (max-width:480px) {
+ .divBody{
+    font-size: small;   
+}   
+}
+   
+
+/*tamaño tablet*/
+
+@media screen and (max-width:768px) {
+    .divBody{
+        font-size: smaller;
+    
+    
+    }
+
+
+}
+   
+    
